@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "product_name": "Paleo Bars",
+      "price": 100,
+      "price_level": "free",
+      "discount_percentage": 20,
+      "markdown": 30,
+      "taxes_applicable": true,
+      "tax": 5
+    },
+    {
+      "product_name": "Bow Tie",
+      "price": 100,
+      "price_level": "discount",
+      "discount_percentage": 20,
+      "markdown": 30,
+      "taxes_applicable": true,
+      "tax": 5
+    },
+    {
+      "product_name": "Pocket Square",
+      "price": 100,
+      "price_level": "sale",
+      "discount_percentage": 20,
+      "markdown": 30,
+      "taxes_applicable": true,
+      "tax": 5
+    },
+    {
+      "product_name": "Wood Sunglass",
+      "price": 100,
+      "price_level": "normal",
+      "discount_percentage": 20,
+      "markdown": 30,
+      "taxes_applicable": true,
+      "tax": 5
+    }
+  ]
+}
