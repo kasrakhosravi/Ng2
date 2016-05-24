@@ -1,0 +1,36 @@
+<div class="ui-card">
+    <div class="ui-card__cell">
+        <p class="ui-heading">
+            Alice is a hackathon organizer at Shopify! What a fun and interesting job :) She is trying to buy some
+            spare computers and keyboards for hackers. She doesn't have a specific budget, but she is willing to spend the
+            least amount of money, while maximizing the sets she can buy. She just paid a visit to Shopicruit store. Lets see
+            how it went!
+        </p>
+
+        <p class="ui-heading">
+            The total weight of the items Alice bought is <b>{{totalWeight}}</b> grams; and the total amount of money
+            she spent was <b>{{totalPrice}}</b> dollars.
+        <p class="ui-heading">
+
+    </div>
+</div>
+
+<div class="ui-card">
+    <div class="ui-card__cell">
+        <ul>
+            <li *ngFor="let order of orders">
+                <p class="ui-heading">
+                    Order sub total: {{order.subTotal}} $,
+                    Order tax amount: {{order.taxAmount}} $,
+                    Order total: {{order.total}} $
+                </p>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+
+<div class="error" *ngIf="errorMessage">
+    {{errorMessage}}
+</div>

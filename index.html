@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopicruit</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err){ console.error(err);  });
+    </script>
+    <base href="/">
+</head>
+
+<body>
+    <main class="page">
+        <header class="header">
+            <div class="header__content">
+                <a class="header__logo" href="#">
+                    <img src="./assets/images/header-logo.png">
+                    <p class="ui-heading ui-heading--large ui-heading--light ui-heading--margin-left">
+                        Shopicruit
+                    </p>
+                </a>
+            </div>
+        </header>
+        <div class="page-width">
+            <ui-shopicruit>Loading...</ui-shopicruit>
+        </div>
+    </main>
+</body>
+</html>
